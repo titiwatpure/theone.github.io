@@ -1,109 +1,231 @@
 {
-  "name": "ชื่อ นามสกุล",
-  "title": "ตำแหน่งงานของคุณ",
-  "bio": "นักพัฒนาซอฟต์แวร์ที่มีประสบการณ์กว่า 5 ปี ชอบสร้างผลิตภัณฑ์ที่ใช้งานได้จริงและตอบโจทย์ผู้ใช้",
-  "avatar": "images/avatar.jpg",
-  "stats": {
-    "years": "5+",
-    "projects": 24,
-    "clients": 12
-  },
-  "contact": {
-    "email": "your@email.com",
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "website": ""
-  },
-  "experience": [
-    {
-      "role": "Senior Frontend Developer",
-      "company": "บริษัท เทค สตาร์ จำกัด",
-      "type": "Full-time",
-      "period": "2022–ปัจจุบัน",
-      "desc": "พัฒนา React Application สำหรับ E-commerce ที่มีผู้ใช้งานกว่า 100,000 คน/เดือน"
-    },
-    {
-      "role": "Web Developer",
-      "company": "ฟรีแลนซ์",
-      "type": "Contract",
-      "period": "2020–2022",
-      "desc": "รับงานพัฒนาเว็บไซต์และ Web App สำหรับธุรกิจ SME ทั้งในและต่างประเทศ"
-    },
-    {
-      "role": "Junior Developer",
-      "company": "บริษัท ดิจิทัล โซลูชั่น จำกัด",
-      "type": "Full-time",
-      "period": "2019–2020",
-      "desc": "ดูแลและพัฒนาเว็บไซต์ขององค์กร รวมถึงระบบ CMS"
+  "personal": {
+    "name": "ไตรทศ ทองเกิด",
+    "nameEn": "Tritot Thongkoed",
+    "title": "Technical Problem Solver | Engineering Systems | AI Automation",
+    "role": "วิศวกรระบบ & AI Automation",
+    "bio": "นายช่างด้านพลังงานผู้เชี่ยวชาญด้านระบบไฟฟ้า เครื่องกล และการตรวจสอบคุณภาพ ผสานเทคโนโลยี AI เข้ากับงานวิศวกรรมเพื่อแก้ปัญหาอย่างมีประสิทธิภาพ",
+    "avatar": "/images/avatar.jpg",
+    "stats": {
+      "years": "5+",
+      "projects": 24,
+      "clients": 12
     }
-  ],
+  },
+  "about": {
+    "philosophy": "เชื่อว่าทุกปัญหาทางวิศวกรรมมีทางออก หากวิเคราะห์ด้วยข้อมูลและเครื่องมือที่เหมาะสม",
+    "highlights": [
+      "เชี่ยวชาญด้านระบบไฟฟ้าและเครื่องกลในอาคารและโรงงาน",
+      "พัฒนาระบบ AI สำหรับตรวจสอบเอกสารและ Audit อัตโนมัติ",
+      "สร้าง Dashboard วิเคราะห์ข้อมูลพลังงานแบบ Real-time",
+      "ประสบการณ์บริหารจัดการโครงการวิศวกรรมขนาดใหญ่"
+    ],
+    "experience": [
+      {
+        "role": "หัวหน้างาน / ผู้ช่วยผู้จัดการ",
+        "company": "บริษัท วีไอพี พาร์เนอร์ จำกัด",
+        "type": "Full-time",
+        "period": "2023–ปัจจุบัน",
+        "desc": "บริหารจัดการโครงการวิศวกรรม ดูแลระบบไฟฟ้าและเครื่องกล พัฒนาระบบ AI สำหรับตรวจสอบเอกสารและ Audit"
+      },
+      {
+        "role": "วิศวกรระบบพลังงาน",
+        "company": "ฟรีแลนซ์ / ที่ปรึกษา",
+        "type": "Contract",
+        "period": "2020–2023",
+        "desc": "ตรวจสอบและปรับปรุงระบบพลังงาน ออกแบบระบบ Solar สร้าง Dashboard วิเคราะห์ข้อมูล"
+      },
+      {
+        "role": "วิศวกรฝ่ายช่าง",
+        "company": "บริษัทเอกชน",
+        "type": "Full-time",
+        "period": "2019–2020",
+        "desc": "ดูแลระบบไฟฟ้าและเครื่องกลในอาคาร ตรวจสอบคุณภาพงานติดตั้ง จัดทำรายงาน QA/QC"
+      }
+    ]
+  },
+  "skills": {
+    "electrical": {
+      "title": "Electrical Engineering",
+      "icon": "zap",
+      "items": [
+        "ระบบไฟฟ้าแรงสูง/แรงต่ำ",
+        "Solar PV System Design",
+        "Power Distribution",
+        "ไฟฟ้าอาคารและโรงงาน",
+        "Motor Control Center",
+        "ระบบดับเพลิง Fire Alarm"
+      ]
+    },
+    "mechanical": {
+      "title": "Mechanical Systems",
+      "icon": "cog",
+      "items": [
+        "ระบบปรับอากาศ HVAC",
+        "ระบบสุขาภิบาล",
+        "ระบบปั๊มและท่อ",
+        "Boiler & Chiller",
+        "ระบบระบายอากาศ",
+        "Plumbing System"
+      ]
+    },
+    "qaqc": {
+      "title": "QA/QC & Audit",
+      "icon": "shield",
+      "items": [
+        "ตรวจสอบคุณภาพงานติดตั้ง",
+        "เอกสาร Audit อัตโนมัติ",
+        "ระบบ Non-Conformance Report",
+        "มาตรฐาน ISO 9001",
+        "Pre-commissioning Test",
+        "Inspection & Testing Plan"
+      ]
+    },
+    "ai": {
+      "title": "AI & Automation",
+      "icon": "brain",
+      "items": [
+        "Python Automation",
+        "Document Audit AI",
+        "OCR + Data Extraction",
+        "AI Validation System",
+        "Chatbot Development",
+        "Machine Learning"
+      ]
+    },
+    "dashboard": {
+      "title": "Python / Dashboard / Database",
+      "icon": "chart",
+      "items": [
+        "Python (FastAPI, Flask)",
+        "Power BI / Grafana",
+        "PostgreSQL / MySQL",
+        "Data Visualization",
+        "ETL Pipeline",
+        "REST API Development"
+      ]
+    }
+  },
   "projects": [
     {
-      "name": "ShopThai Platform",
-      "desc": "ระบบ E-commerce ครบวงจร รองรับผู้ขายกว่า 500 ร้าน มี Dashboard วิเคราะห์ยอดขาย",
-      "tags": ["React", "Node.js", "PostgreSQL"],
-      "image": "images/project1.jpg",
-      "link": "https://example.com",
+      "name": "Document Audit AI",
+      "desc": "ระบบตรวจสอบเอกสาร Audit ด้วย AI ตรวจสอบความถูกต้องและความสอดคล้องของเอกสารอัตโนมัติ ลดเวลาตรวจสอบ 80%",
+      "problem": "การตรวจสอบเอกสาร Audit แบบ Manual ใช้เวลานานและเกิดข้อผิดพลาดบ่อย",
+      "solution": "พัฒนาระบบ AI ที่อ่านและวิเคราะห์เอกสารอัตโนมัติ แจ้งเตือนเมื่อพบความไม่สอดคล้อง",
+      "tools": ["Python", "OCR", "FastAPI", "PostgreSQL"],
+      "tags": ["AI", "Automation", "Audit"],
+      "image": "/images/project-audit.jpg",
+      "year": "2024"
+    },
+    {
+      "name": "QA Validation System",
+      "desc": "ระบบตรวจสอบคุณภาพงานติดตั้งระบบไฟฟ้าและเครื่องกล พร้อม Dashboard แสดงผลแบบ Real-time",
+      "problem": "การตรวจสอบคุณภาพงานติดตั้งใช้เอกสารจำนวนมาก ติดตามสถานะยาก",
+      "solution": "สร้างระบบ Digital สำหรับบันทึกและติดตามการตรวจสอบ พร้อม Dashboard วิเคราะห์",
+      "tools": ["React", "Node.js", "PostgreSQL", "Grafana"],
+      "tags": ["QA/QC", "Dashboard", "Web App"],
+      "image": "/images/project-qa.jpg",
+      "year": "2024"
+    },
+    {
+      "name": "Solar Energy Checker",
+      "desc": "ระบบตรวจสอบและวิเคราะห์ประสิทธิภาพระบบ Solar PV แจ้งเตือนเมื่อผลผลิตต่ำกว่าเป้า",
+      "problem": "ไม่สามารถติดตามประสิทธิภาพระบบ Solar แบบ Real-time ได้",
+      "solution": "พัฒนาระบบ Monitoring ที่ดึงข้อมูลจาก Inverter วิเคราะห์และแจ้งเตือนอัตโนมัติ",
+      "tools": ["Python", "MQTT", "InfluxDB", "Grafana"],
+      "tags": ["Solar", "IoT", "Monitoring"],
+      "image": "/images/project-solar.jpg",
       "year": "2023"
     },
     {
-      "name": "Dashboard Analytics",
-      "desc": "แดชบอร์ดวิเคราะห์ข้อมูลแบบ Real-time สำหรับองค์กร แสดงผลด้วยกราฟหลายรูปแบบ",
-      "tags": ["Vue.js", "D3.js", "Python"],
-      "image": "images/project2.jpg",
-      "link": "",
+      "name": "Energy Dashboard",
+      "desc": "แดชบอร์ดวิเคราะห์ข้อมูลพลังงานแบบ Real-time แสดงการใช้ไฟฟ้า น้ำ และแก๊ส พร้อมรายงานอัตโนมัติ",
+      "problem": "ข้อมูลพลังงานกระจัดกระจาย ไม่สามารถวิเคราะห์แนวโน้มได้",
+      "solution": "รวมข้อมูลจากทุกระบบเข้า Dashboard เดียว พร้อมวิเคราะห์และสร้างรายงานอัตโนมัติ",
+      "tools": ["Python", "React", "PostgreSQL", "Power BI"],
+      "tags": ["Dashboard", "Energy", "Analytics"],
+      "image": "/images/project-dashboard.jpg",
       "year": "2023"
     },
     {
-      "name": "Food Delivery App",
-      "desc": "แอปสั่งอาหาร รองรับร้านอาหารกว่า 200 แห่งในกรุงเทพ พร้อมระบบติดตาม Real-time",
-      "tags": ["React Native", "Firebase"],
-      "image": "images/project3.jpg",
-      "link": "",
+      "name": "HVAC Monitoring System",
+      "desc": "ระบบตรวจสอบและควบคุมระบบปรับอากาศ ลดการใช้พลังงาน 20% พร้อมแจ้งเตือนเมื่อเครื่องขัดข้อง",
+      "problem": "ระบบปรับอากาศใช้พลังงานสูง ไม่มีระบบติดตามอัตโนมัติ",
+      "solution": "ติดตั้ง Sensor และพัฒนาระบบ Monitoring ควบคุมอุณหภูมิอัตโนมัติ",
+      "tools": ["Python", "MQTT", "Node-RED", "InfluxDB"],
+      "tags": ["HVAC", "IoT", "Energy"],
+      "image": "/images/project-hvac.jpg",
       "year": "2022"
     },
     {
-      "name": "AI Chat Support",
-      "desc": "ระบบ Chatbot ช่วย Customer Support ลดต้นทุนการดูแลลูกค้าได้ 40%",
-      "tags": ["Python", "OpenAI API", "FastAPI"],
-      "image": "images/project4.jpg",
-      "link": "https://example.com",
+      "name": "Non-Conformance Report System",
+      "desc": "ระบบจัดการรายงานความไม่สอดคล้องในงานก่อสร้าง ตั้งแต่บันทึกจนถึงแก้ไขและปิดงาน",
+      "problem": "การจัดการ NCR ใช้เอกสารกระดาษ ติดตามสถานะยาก สูญหายง่าย",
+      "solution": "พัฒนาระบบ Digital NCR บันทึก ติดตาม และแจ้งเตือนอัตโนมัติ",
+      "tools": ["Next.js", "Prisma", "MySQL", "Line Notify"],
+      "tags": ["QA/QC", "Web App", "Construction"],
+      "image": "/images/project-ncr.jpg",
       "year": "2022"
-    },
-    {
-      "name": "HR Management System",
-      "desc": "ระบบบริหารงานบุคคลครบวงจร จัดการพนักงาน ลา โอที และเงินเดือน",
-      "tags": ["Next.js", "Prisma", "MySQL"],
-      "image": "images/project5.jpg",
-      "link": "",
-      "year": "2021"
-    },
-    {
-      "name": "Smart Inventory",
-      "desc": "ระบบจัดการสต็อกสินค้า แจ้งเตือนอัตโนมัติเมื่อสินค้าใกล้หมด",
-      "tags": ["React", "Express", "MongoDB"],
-      "image": "images/project6.jpg",
-      "link": "",
-      "year": "2021"
     }
   ],
-  "skills": [
-    "React / Next.js",
-    "TypeScript",
-    "Node.js / Express",
-    "Python",
-    "PostgreSQL / MySQL",
-    "MongoDB",
-    "Docker",
-    "AWS / GCP",
-    "Figma",
-    "Git / GitHub"
-  ],
-  "education": [
+  "aiTools": [
     {
-      "degree": "วิทยาศาสตรบัณฑิต สาขาวิทยาการคอมพิวเตอร์",
-      "school": "มหาวิทยาลัย...",
-      "year": "2015–2019"
+      "name": "Document Audit AI",
+      "desc": "ระบบ AI ตรวจสอบเอกสาร Audit อ่านข้อมูลจาก PDF/ภาพ ตรวจสอบความถูกต้องและความสอดคล้อง",
+      "tech": ["Python", "OCR", "NLP", "FastAPI"],
+      "status": "Production"
+    },
+    {
+      "name": "QA Validation System",
+      "desc": "ระบบตรวจสอบคุณภาพงานติดตั้ง ตรวจสอบ Checklist อัตโนมัติ แจ้งเตือนเมื่อพบข้อบกพร่อง",
+      "tech": ["Python", "Computer Vision", "React"],
+      "status": "Production"
+    },
+    {
+      "name": "Solar Performance Checker",
+      "desc": "ระบบวิเคราะห์ประสิทธิภาพ Solar PV เปรียบเทียบผลผลิตจริงกับที่คาดการณ์",
+      "tech": ["Python", "MQTT", "Machine Learning"],
+      "status": "Production"
+    },
+    {
+      "name": "Energy Analytics Dashboard",
+      "desc": "แดชบอร์ดวิเคราะห์ข้อมูลพลังงาน แสดงแนวโน้ม แจ้งเตือน และสร้างรายงานอัตโนมัติ",
+      "tech": ["React", "Python", "PostgreSQL", "Grafana"],
+      "status": "Production"
     }
-  ]
+  ],
+  "articles": [
+    {
+      "title": "การตรวจสอบความไม่สอดคล้องของเอกสารด้วย AI",
+      "desc": "เทคนิคการใช้ AI อ่านและวิเคราะห์เอกสารเพื่อหาข้อผิดพลาดและความไม่สอดคล้อง",
+      "category": "AI Engineering",
+      "date": "2024"
+    },
+    {
+      "title": "QA Engineering ในงานวิศวกรรมระบบ",
+      "desc": "หลักการและแนวทางการตรวจสอบคุณภาพงานติดตั้งระบบไฟฟ้าและเครื่องกล",
+      "category": "QA/QC",
+      "date": "2024"
+    },
+    {
+      "title": "AI สำหรับงานวิศวกรรม: เริ่มต้นอย่างไร",
+      "desc": "แนวทางการนำ AI มาใช้ในงานวิศวกรรม ตั้งแต่แนวคิดจนถึงการลงมือทำ",
+      "category": "AI Engineering",
+      "date": "2023"
+    },
+    {
+      "title": "Automation Workflow สำหรับงานตรวจสอบ",
+      "desc": "การออกแบบระบบอัตโนมัติสำหรับงานตรวจสอบและ Audit เพื่อลดเวลาและเพิ่มความถูกต้อง",
+      "category": "Automation",
+      "date": "2023"
+    }
+  ],
+  "contact": {
+    "email": "your@email.com",
+    "line": "@yourline",
+    "facebook": "https://facebook.com/yourprofile",
+    "phone": "0xx-xxx-xxxx",
+    "github": "https://github.com/titiwatpure",
+    "linkedin": "https://linkedin.com/in/yourprofile"
+  }
 }
