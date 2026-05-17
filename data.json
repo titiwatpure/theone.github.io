@@ -1,0 +1,109 @@
+{
+  "name": "ชื่อ นามสกุล",
+  "title": "ตำแหน่งงานของคุณ",
+  "bio": "นักพัฒนาซอฟต์แวร์ที่มีประสบการณ์กว่า 5 ปี ชอบสร้างผลิตภัณฑ์ที่ใช้งานได้จริงและตอบโจทย์ผู้ใช้",
+  "avatar": "images/avatar.jpg",
+  "stats": {
+    "years": "5+",
+    "projects": 24,
+    "clients": 12
+  },
+  "contact": {
+    "email": "your@email.com",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "website": ""
+  },
+  "experience": [
+    {
+      "role": "Senior Frontend Developer",
+      "company": "บริษัท เทค สตาร์ จำกัด",
+      "type": "Full-time",
+      "period": "2022–ปัจจุบัน",
+      "desc": "พัฒนา React Application สำหรับ E-commerce ที่มีผู้ใช้งานกว่า 100,000 คน/เดือน"
+    },
+    {
+      "role": "Web Developer",
+      "company": "ฟรีแลนซ์",
+      "type": "Contract",
+      "period": "2020–2022",
+      "desc": "รับงานพัฒนาเว็บไซต์และ Web App สำหรับธุรกิจ SME ทั้งในและต่างประเทศ"
+    },
+    {
+      "role": "Junior Developer",
+      "company": "บริษัท ดิจิทัล โซลูชั่น จำกัด",
+      "type": "Full-time",
+      "period": "2019–2020",
+      "desc": "ดูแลและพัฒนาเว็บไซต์ขององค์กร รวมถึงระบบ CMS"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ShopThai Platform",
+      "desc": "ระบบ E-commerce ครบวงจร รองรับผู้ขายกว่า 500 ร้าน มี Dashboard วิเคราะห์ยอดขาย",
+      "tags": ["React", "Node.js", "PostgreSQL"],
+      "image": "images/project1.jpg",
+      "link": "https://example.com",
+      "year": "2023"
+    },
+    {
+      "name": "Dashboard Analytics",
+      "desc": "แดชบอร์ดวิเคราะห์ข้อมูลแบบ Real-time สำหรับองค์กร แสดงผลด้วยกราฟหลายรูปแบบ",
+      "tags": ["Vue.js", "D3.js", "Python"],
+      "image": "images/project2.jpg",
+      "link": "",
+      "year": "2023"
+    },
+    {
+      "name": "Food Delivery App",
+      "desc": "แอปสั่งอาหาร รองรับร้านอาหารกว่า 200 แห่งในกรุงเทพ พร้อมระบบติดตาม Real-time",
+      "tags": ["React Native", "Firebase"],
+      "image": "images/project3.jpg",
+      "link": "",
+      "year": "2022"
+    },
+    {
+      "name": "AI Chat Support",
+      "desc": "ระบบ Chatbot ช่วย Customer Support ลดต้นทุนการดูแลลูกค้าได้ 40%",
+      "tags": ["Python", "OpenAI API", "FastAPI"],
+      "image": "images/project4.jpg",
+      "link": "https://example.com",
+      "year": "2022"
+    },
+    {
+      "name": "HR Management System",
+      "desc": "ระบบบริหารงานบุคคลครบวงจร จัดการพนักงาน ลา โอที และเงินเดือน",
+      "tags": ["Next.js", "Prisma", "MySQL"],
+      "image": "images/project5.jpg",
+      "link": "",
+      "year": "2021"
+    },
+    {
+      "name": "Smart Inventory",
+      "desc": "ระบบจัดการสต็อกสินค้า แจ้งเตือนอัตโนมัติเมื่อสินค้าใกล้หมด",
+      "tags": ["React", "Express", "MongoDB"],
+      "image": "images/project6.jpg",
+      "link": "",
+      "year": "2021"
+    }
+  ],
+  "skills": [
+    "React / Next.js",
+    "TypeScript",
+    "Node.js / Express",
+    "Python",
+    "PostgreSQL / MySQL",
+    "MongoDB",
+    "Docker",
+    "AWS / GCP",
+    "Figma",
+    "Git / GitHub"
+  ],
+  "education": [
+    {
+      "degree": "วิทยาศาสตรบัณฑิต สาขาวิทยาการคอมพิวเตอร์",
+      "school": "มหาวิทยาลัย...",
+      "year": "2015–2019"
+    }
+  ]
+}

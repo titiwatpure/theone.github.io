@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo" id="nav-name">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#experience">ประสบการณ์</a></li>
+      <li><a href="#projects">ผลงาน</a></li>
+      <li><a href="#skills">ทักษะ</a></li>
+      <li><a href="#contact" class="nav-cta">ติดต่อ</a></li>
+    </ul>
+    <button class="nav-burger" id="burger" aria-label="เมนู">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#experience" onclick="closeMobile()">ประสบการณ์</a>
+    <a href="#projects" onclick="closeMobile()">ผลงาน</a>
+    <a href="#skills" onclick="closeMobile()">ทักษะ</a>
+    <a href="#contact" onclick="closeMobile()">ติดต่อ</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-tag">PORTFOLIO</div>
+        <h1 class="hero-name" id="hero-name">—</h1>
+        <p class="hero-title" id="hero-title">—</p>
+        <p class="hero-bio" id="hero-bio">—</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">ดูผลงาน</a>
+          <a href="#contact" class="btn-outline">ติดต่อฉัน</a>
+        </div>
+      </div>
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-ring"></div>
+        <img class="hero-avatar" id="hero-avatar" src="" alt="Profile" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex'" />
+        <div class="avatar-fallback" id="avatar-fallback"></div>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat">
+        <span class="stat-num" id="stat-years">—</span>
+        <span class="stat-label">ปีประสบการณ์</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-projects">—</span>
+        <span class="stat-label">โปรเจกต์</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-clients">—</span>
+        <span class="stat-label">ลูกค้า</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-header">
+      <div class="section-line"></div>
+      <h2 class="section-title">ประสบการณ์การทำงาน</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="exp-list" id="exp-list"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-dark" id="projects">
+    <div class="section-header">
+      <div class="section-line"></div>
+      <h2 class="section-title">ผลงาน</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <div class="lightbox-img-wrap">
+        <img class="lightbox-img" id="lb-img" src="" alt="" />
+        <div class="lightbox-img-placeholder" id="lb-placeholder"></div>
+      </div>
+      <div class="lightbox-info">
+        <div class="lightbox-year" id="lb-year"></div>
+        <h3 class="lightbox-name" id="lb-name"></h3>
+        <p class="lightbox-desc" id="lb-desc"></p>
+        <div class="lightbox-tags" id="lb-tags"></div>
+        <a class="lightbox-link" id="lb-link" href="#" target="_blank" rel="noopener">เยี่ยมชมโปรเจกต์ →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-header">
+      <div class="section-line"></div>
+      <h2 class="section-title">ทักษะ</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-wrap" id="skills-wrap"></div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-sm" id="education">
+    <div class="section-header">
+      <div class="section-line"></div>
+      <h2 class="section-title">การศึกษา</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="edu-list" id="edu-list"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="contact-inner">
+      <p class="contact-sub">มีโปรเจกต์ในใจอยู่แล้ว?</p>
+      <h2 class="contact-title">มาคุยกันได้เลย</h2>
+      <div class="contact-links" id="contact-links"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span id="footer-name">Portfolio</span>
+    <span class="footer-credit">สร้างด้วย GitHub Pages</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
